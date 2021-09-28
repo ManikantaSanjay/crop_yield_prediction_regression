@@ -3,7 +3,7 @@
 * Crop Yield Prediction using various ML approaches.
 * ML Algorithms used - Random-Forest Regressor, Gradient-Boosting Regressor, Decision-Tree Regressor, Support-Vector Regressor
 * <b>Problem Statement</b>: Predict crops yield for 10 of most consumed crops worldwide.
-* Decision-Tree Regressor gives an accuracy of about 92% and Graphviz is used to create the graph of the Descision Tree.
+* Decision-Tree Regressor gives an accuracy of about 92% and Graphviz is used to create the graph of the Decision Tree.
 ## Python Libraries Used:
 * NumPy 
 
