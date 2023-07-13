@@ -1,38 +1,41 @@
-# crop_yield_prediction_regression
-## Description :
-* Designed and Implemented a Crop Yield Prediction model using various ML approaches.
-* <b>ML Algorithms Used</b> : Random-Forest Regressor, Gradient-Boosting Regressor, Decision-Tree Regressor, Support-Vector Regressor
-* <b>Problem Statement</b> : Predict crops yield for 10 of most consumed crops worldwide.
-* <b>Outcome</b> : Decision-Tree Regressor gives an accuracy of 96% and Graphviz is used to create the graph of the Decision Tree.
+# Hey there, green thumbs! 🌱👍
 
-## Steps Involved :
-* Step I - <b>Gathering and Cleaning Data</b> -> Here, we remove the unwanted columns from the csv files; drop the null valued rows; and then we merge the yield csv file with the pesticides and average rainfall csv files to form a combined dataframe containing all the required attributes.
-* Step II - <b>Data Exploraton</b> -> Here, we try to use visual exploration to understand what is in the dataset and try to see the correlation between the different attributes present in the dataframe.
-* Step III - <b>Data Preprocessing</b> -> Here, we perform encoding categorial variables; scaling the features; and perform train-test-split of the data in a 70:30 ratio.
-* Step IV - <b>Model Training, Comparison, and Selection</b> -> Here, we perform training using the following algorithms - Gradient Boosting Regressor, Random Forest Regressor, SVM, Decision Tree Regressor . We make use of the evaluation metric, R^2 (coefficient of determination) regression score function. Among them, Decision Tree Regressor is found to give a better accuracy of 96.04 %.
-* Step V - <b> Model Results & Conclusions</b> -> Here, we use visualisation library to view the importance of the top 7 features in determining the yield of the crop, and we view the yield predicted for the top 10 most consumed crops. We make use of the Graphviz Library to see the decision tree created by the model.
+Welcome to our **Crop Yield Prediction Regression** project. This is where we're using the power of machine learning to predict crop yields for 10 of the most consumed crops worldwide. 
 
-## Python Libraries Used :
-* NumPy 
+## What's it all about? 🤔
 
-* Pandas 
+We've designed and implemented a crop yield prediction model using various ML approaches. We've used a bunch of ML algorithms including Random-Forest Regressor, Gradient-Boosting Regressor, Decision-Tree Regressor, and Support-Vector Regressor.
 
-* Matplotlib
+## How does it work? 🛠️
 
-* Scikit-learn
+We've gone through a few steps to get to our results:
 
-* Seaborn 
+1. **Gathering and Cleaning Data** - We've removed unwanted columns from the CSV files, dropped the null valued rows, and merged the yield CSV file with the pesticides and average rainfall CSV files to form a combined dataframe with all the required attributes.
 
-* Pydot
+2. **Data Exploration** - We've used visual exploration to understand the dataset and see the correlation between the different attributes.
 
-* Graphviz
+3. **Data Preprocessing** - We've encoded categorical variables, scaled the features, and split the data into a 70:30 train-test ratio.
 
-## Link to NoteBook : 
-https://github.com/ManikantaSanjay/crop_yield_prediction_regression/blob/master/crop_yield_prediction_ml.ipynb 🔗
+4. **Model Training, Comparison, and Selection** - We've trained our model using Gradient Boosting Regressor, Random Forest Regressor, SVM, and Decision Tree Regressor. We've used the R^2 (coefficient of determination) regression score function for evaluation. The Decision Tree Regressor gave us the best accuracy of 96.04%.
 
-## Dataset: 👇
-http://www.fao.org/home/en/
+5. **Model Results & Conclusions** - We've visualized the importance of the top 7 features in determining the crop yield, and viewed the yield predicted for the top 10 most consumed crops. We've also used the Graphviz Library to see the decision tree created by the model.
 
-https://data.worldbank.org/
+## Libraries we've used 📚
 
-## Add a star 🌟 to the repo if u like it.😃 Thank You ✌️
+1. NumPy
+2. Pandas
+3. Matplotlib
+4. Scikit-learn
+5. Seaborn
+6. Pydot
+7. Graphviz
+
+## Check it out! 📖
+
+You can find the notebook for this project [here](https://github.com/ManikantaSanjay/crop_yield_prediction_regression/blob/master/crop_yield_prediction_ml.ipynb).
+
+## Dataset 📊
+
+We've used data from [FAO](http://www.fao.org/home/en/) and [World Bank](https://data.worldbank.org/).
+
+So, that's about it! If you like what you see, give us a star ⭐. Thanks and happy coding! 🚀
